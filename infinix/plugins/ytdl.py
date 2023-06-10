@@ -306,7 +306,7 @@ async def download_video(event):
 
       
 
-      
+
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):
 
