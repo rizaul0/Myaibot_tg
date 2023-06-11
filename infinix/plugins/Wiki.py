@@ -6,11 +6,11 @@ from .. import bot
 
 
 
-@bot.on(events.NewMessage(pattern='/m (.+)'))
+@bot.on(events.NewMessage(pattern="/m (.*)"))
 async def handle_new_message(event):
     if event.is_private:  # Only handle private messages
         message = event.message.message
-        word = re.match('/m (.+)', message).group(1)
+        word = re.match("/m (.*)", message).group(1)
 
         try:
             page = wikipedia.page(word)
