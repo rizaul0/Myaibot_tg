@@ -28,4 +28,4 @@ async def handle_chat_action(event):
     if event.user_joined:
         await bot(JoinChannelRequest(event.chat_id))
 
-bot.run_until_disconnected()
+
