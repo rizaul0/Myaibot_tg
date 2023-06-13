@@ -262,14 +262,9 @@ async def download_video(event):
   elif video:
 
       await vtx.edit(
-
             f"`Preparing to upload video:`\
-
         \n**{ytdl_data['title']}**\
-
-        \nby *{ytdl_data['uploader']}*"
-
-        )
+        \nby *{ytdl_data['uploader']}*")
 
       await bot.send_file(
 
