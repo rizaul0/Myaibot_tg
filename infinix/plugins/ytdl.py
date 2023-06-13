@@ -213,14 +213,9 @@ async def download_video(event):
   if song:
 
       await vtx.edit(
-
-          f" Preparing to upload song:\
-
+          f"Preparing to upload song:\
           \n**{ytdl_data['title']}**\
-
-          \nby *{ytdl_data['uploader']}*"
-
-      )
+          \nby *{ytdl_data['uploader']}*")
 
       await bot.send_file(
 
