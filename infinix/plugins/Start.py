@@ -1,4 +1,4 @@
-from .. import bot,openai_key 
+from .. import bot
 from telethon import events
 import asyncio
 
