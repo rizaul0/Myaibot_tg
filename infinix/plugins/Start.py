@@ -1,9 +1,9 @@
 from .. import bot,openai_key 
 from telethon import events
 import asyncio
-import openai
 
-openai.my_api_key = openai_key
+
+
 
 
 
