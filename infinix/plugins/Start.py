@@ -9,7 +9,7 @@ import asyncio
 
 @bot.on(events.NewMessage(incoming= True,pattern="/start"))
 async def start(event):
-  await  event.reply("Hello this is infinix bot")
+  await  event.reply("Hello this is infinix bot bot commands are as /m for wikipedia serch , /yta for audio file , /ytv for video file, /tr for translation")
 
 @bot.on(events.NewMessage(incoming= True,pattern="/get"))
 async def start(event):
